@@ -1,8 +1,12 @@
+@font-face{font-family:AprovaSans;src:url(https://d3awytnmmfk53d.cloudfront.net/landings/static/fonts/aprova-sans/Aprova-Regular.woff2) format("woff2"),url(https://d3awytnmmfk53d.cloudfront.net/landings/static/fonts/aprova-sans/Aprova-Regular.woff) format("woff"),url(https://d3awytnmmfk53d.cloudfront.net/landings/static/fonts/aprova-sans/Aprova-Regular.otf) format("opentype"),url(https://d3awytnmmfk53d.cloudfront.net/landings/static/fonts/aprova-sans/Aprova-Regular.ttf) format("truetype");font-style:normal}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
   font-family: AprovaSans;
-  margin: 0px;
-  height: 1440px;
 }
 
 .header {
@@ -12,10 +16,10 @@ body {
 }
 
 .header-container {
-  /* border: solid 1px red; */
   display: flex;
   justify-content: center;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -45,17 +49,19 @@ body {
 .title {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .title-text {
   font-size: 50px;
-  width: 410px;
+  width: 450px;
   text-align: center;
 }
 
 .subtitle {
   display: flex;
   justify-content: center;
+  font-weight: normal;
 }
 .chevron {
   margin: 20px;
@@ -67,43 +73,34 @@ body {
   justify-content: center;
 }
 
-.desktop {
-  align-self: center;
-}
-.mobile {
+.desktop, .mobile {
   align-self: center;
 }
 
-.footer {
+.slogan {
   margin-top: 80px;
   display: flex;
   justify-content: center;
 }
 
-.footer-text {
+.slogan-text {
   font-size: 50px;
   text-align: center;
 }
 
 .qualities {
   margin-top: 40px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-evenly;
 }
 
-/* .qualities > div > img {
-  border: solid 1px green;
+.qualities-title {
+  margin-bottom: 20px;
 }
 
-.qualities > div {
-  border: solid 1px red;
-}
-
-.qualities > div > h3{
-  border: solid 1px orange;
-} */
-
-.qualities > div > div {
+.qualities .qualities-text {
   width: 250px;
+  color: #a5a5a5;
   /* border: solid 1px blue; */
 }
