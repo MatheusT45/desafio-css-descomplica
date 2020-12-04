@@ -1,0 +1,109 @@
+
+body {
+  font-family: AprovaSans;
+  margin: 0px;
+  height: 1440px;
+}
+
+.header {
+  width: 0 auto;
+  height: 860px;
+  background-color: #00e88f;
+}
+
+.header-container {
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.logo {
+  margin-top: 20px;
+  position: absolute;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  position: relative;
+  flex: 1;
+}
+
+.login {
+  color: #2a2a2a;
+  margin: 20px;
+}
+
+.signin {
+  color: #2a2a2a;
+  margin: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.title-text {
+  font-size: 50px;
+  width: 410px;
+  text-align: center;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+}
+.chevron {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.display {
+  display: flex;
+  justify-content: center;
+}
+
+.desktop {
+  align-self: center;
+}
+.mobile {
+  align-self: center;
+}
+
+.footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  font-size: 50px;
+  text-align: center;
+}
+
+.qualities {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .qualities > div > img {
+  border: solid 1px green;
+}
+
+.qualities > div {
+  border: solid 1px red;
+}
+
+.qualities > div > h3{
+  border: solid 1px orange;
+} */
+
+.qualities > div > div {
+  width: 250px;
+  /* border: solid 1px blue; */
+}
