@@ -126,10 +126,6 @@ body {
   flex-wrap: wrap;
 }
 
-.qualities-card {
-  min-width: 300px;
-}
-
 .qualities-title {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -145,6 +141,8 @@ body {
   .qualities {
     margin-top: 40px;
     margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -166,7 +164,6 @@ body {
   .slogan-text {
     font-size: 50px;
     width: 500px;
-    text-align: left;
   }
 
   .actions {
