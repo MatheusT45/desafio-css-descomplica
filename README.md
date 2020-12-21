@@ -1,3 +1,4 @@
-# teste-do-ted
+# Desafio CSS
 
-Esse é um teste de CSS pelo saudoso Ted para replicar essa tela: https://zpl.io/25Ad93e
+Esse é um desafio feito em HTML e CSS aplicado pelo saudoso Ted como um treinamento para exemplificar os desafios que terei na nova equipe que vou participar.
+Link Zeplin: https://zpl.io/25Ad93e
